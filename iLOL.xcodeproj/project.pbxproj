@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B3DAEAE1E2FC14E00ED639C /* ChampionViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3DAEAD1E2FC14E00ED639C /* ChampionViewConroller.swift */; };
+		5B3DAEB31E2FC51200ED639C /* Champion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3DAEB21E2FC51200ED639C /* Champion.swift */; };
+		5B3DAEB61E2FD40C00ED639C /* PreviewChampionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3DAEB51E2FD40C00ED639C /* PreviewChampionCell.swift */; };
 		5B4594861DF305C3008FB26F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4594851DF305C3008FB26F /* AppDelegate.swift */; };
-		5B4594881DF305C3008FB26F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4594871DF305C3008FB26F /* ViewController.swift */; };
-		5B45948B1DF305C3008FB26F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4594891DF305C3008FB26F /* Main.storyboard */; };
 		5B45948D1DF305C3008FB26F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B45948C1DF305C3008FB26F /* Assets.xcassets */; };
 		5B4594901DF305C3008FB26F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B45948E1DF305C3008FB26F /* LaunchScreen.storyboard */; };
-		5B45949B1DF305C3008FB26F /* iLOLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B45949A1DF305C3008FB26F /* iLOLTests.swift */; };
-		5B4594A61DF305C3008FB26F /* iLOLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4594A51DF305C3008FB26F /* iLOLUITests.swift */; };
+		5B58C0C01DF462A7000AF216 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B58C0BF1DF462A7000AF216 /* QuestionViewController.swift */; };
+		5B6AC32C1E10098400B1C3F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B6AC32A1E10098400B1C3F0 /* Main.storyboard */; };
+		5B6AC32E1E100A8800B1C3F0 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6AC32D1E100A8800B1C3F0 /* Question.swift */; };
+		5BBEAFBC1E11B715003AA6D0 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBEAFBB1E11B715003AA6D0 /* MenuViewController.swift */; };
+		5BDD3CE41E30C51E00669D34 /* ChampionInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD3CE31E30C51E00669D34 /* ChampionInfoViewController.swift */; };
+		C867F851762BE415E2F60316 /* Pods_iLOL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A58D3D82F825677AECBB5BA /* Pods_iLOL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +39,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		282D3E5BCBCF929B2E1624F5 /* Pods-iLOL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iLOL.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iLOL/Pods-iLOL.debug.xcconfig"; sourceTree = "<group>"; };
+		4A58D3D82F825677AECBB5BA /* Pods_iLOL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iLOL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B3DAEAD1E2FC14E00ED639C /* ChampionViewConroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChampionViewConroller.swift; sourceTree = "<group>"; };
+		5B3DAEB21E2FC51200ED639C /* Champion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Champion.swift; sourceTree = "<group>"; };
+		5B3DAEB51E2FD40C00ED639C /* PreviewChampionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewChampionCell.swift; sourceTree = "<group>"; };
 		5B4594821DF305C3008FB26F /* iLOL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iLOL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B4594851DF305C3008FB26F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B4594871DF305C3008FB26F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5B45948A1DF305C3008FB26F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B45948C1DF305C3008FB26F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B45948F1DF305C3008FB26F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B4594911DF305C3008FB26F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B4594961DF305C3008FB26F /* iLOLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iLOLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B45949A1DF305C3008FB26F /* iLOLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iLOLTests.swift; sourceTree = "<group>"; };
-		5B45949C1DF305C3008FB26F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B4594A11DF305C3008FB26F /* iLOLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iLOLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B4594A51DF305C3008FB26F /* iLOLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iLOLUITests.swift; sourceTree = "<group>"; };
-		5B4594A71DF305C3008FB26F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B58C0BF1DF462A7000AF216 /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		5B6AC32B1E10098400B1C3F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B6AC32D1E100A8800B1C3F0 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		5BBEAFBB1E11B715003AA6D0 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		5BDD3CE31E30C51E00669D34 /* ChampionInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChampionInfoViewController.swift; sourceTree = "<group>"; };
+		C4BF8FC4C6C11272623A0CE1 /* Pods-iLOL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iLOL.release.xcconfig"; path = "Pods/Target Support Files/Pods-iLOL/Pods-iLOL.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C867F851762BE415E2F60316 /* Pods_iLOL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +85,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B3DAEB41E2FD3E500ED639C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B3DAEB51E2FD40C00ED639C /* PreviewChampionCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		5B4594791DF305C3008FB26F = {
 			isa = PBXGroup;
 			children = (
 				5B4594841DF305C3008FB26F /* iLOL */,
-				5B4594991DF305C3008FB26F /* iLOLTests */,
-				5B4594A41DF305C3008FB26F /* iLOLUITests */,
 				5B4594831DF305C3008FB26F /* Products */,
+				C09DAE049B36C7C42686C359 /* Pods */,
+				8A1743638738B451FCA63078 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,32 +116,53 @@
 		5B4594841DF305C3008FB26F /* iLOL */ = {
 			isa = PBXGroup;
 			children = (
+				5B3DAEB41E2FD3E500ED639C /* View */,
+				5B4BAC731DF323A800C9ADFE /* Model */,
+				5B4BAC721DF3239D00C9ADFE /* ViewControllers */,
 				5B4594851DF305C3008FB26F /* AppDelegate.swift */,
-				5B4594871DF305C3008FB26F /* ViewController.swift */,
-				5B4594891DF305C3008FB26F /* Main.storyboard */,
 				5B45948C1DF305C3008FB26F /* Assets.xcassets */,
+				5B6AC32A1E10098400B1C3F0 /* Main.storyboard */,
 				5B45948E1DF305C3008FB26F /* LaunchScreen.storyboard */,
 				5B4594911DF305C3008FB26F /* Info.plist */,
 			);
 			path = iLOL;
 			sourceTree = "<group>";
 		};
-		5B4594991DF305C3008FB26F /* iLOLTests */ = {
+		5B4BAC721DF3239D00C9ADFE /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				5B45949A1DF305C3008FB26F /* iLOLTests.swift */,
-				5B45949C1DF305C3008FB26F /* Info.plist */,
+				5BBEAFBB1E11B715003AA6D0 /* MenuViewController.swift */,
+				5B58C0BF1DF462A7000AF216 /* QuestionViewController.swift */,
+				5B3DAEAD1E2FC14E00ED639C /* ChampionViewConroller.swift */,
+				5BDD3CE31E30C51E00669D34 /* ChampionInfoViewController.swift */,
 			);
-			path = iLOLTests;
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
-		5B4594A41DF305C3008FB26F /* iLOLUITests */ = {
+		5B4BAC731DF323A800C9ADFE /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				5B4594A51DF305C3008FB26F /* iLOLUITests.swift */,
-				5B4594A71DF305C3008FB26F /* Info.plist */,
+				5B6AC32D1E100A8800B1C3F0 /* Question.swift */,
+				5B3DAEB21E2FC51200ED639C /* Champion.swift */,
 			);
-			path = iLOLUITests;
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8A1743638738B451FCA63078 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A58D3D82F825677AECBB5BA /* Pods_iLOL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C09DAE049B36C7C42686C359 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				282D3E5BCBCF929B2E1624F5 /* Pods-iLOL.debug.xcconfig */,
+				C4BF8FC4C6C11272623A0CE1 /* Pods-iLOL.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B4594AA1DF305C3008FB26F /* Build configuration list for PBXNativeTarget "iLOL" */;
 			buildPhases = (
+				3C049C95AFBD00F90019863E /* [CP] Check Pods Manifest.lock */,
 				5B45947E1DF305C3008FB26F /* Sources */,
 				5B45947F1DF305C3008FB26F /* Frameworks */,
 				5B4594801DF305C3008FB26F /* Resources */,
+				9061BEAC087F561FA6AC3F51 /* [CP] Embed Pods Frameworks */,
+				17CCE4E1CF48B2A3BB2848C0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,7 +231,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Esli Van Acoleyen";
 				TargetAttributes = {
 					5B4594811DF305C3008FB26F = {
@@ -232,9 +275,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B6AC32C1E10098400B1C3F0 /* Main.storyboard in Resources */,
 				5B4594901DF305C3008FB26F /* LaunchScreen.storyboard in Resources */,
 				5B45948D1DF305C3008FB26F /* Assets.xcassets in Resources */,
-				5B45948B1DF305C3008FB26F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +297,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17CCE4E1CF48B2A3BB2848C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iLOL/Pods-iLOL-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C049C95AFBD00F90019863E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9061BEAC087F561FA6AC3F51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iLOL/Pods-iLOL-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5B45947E1DF305C3008FB26F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B4594881DF305C3008FB26F /* ViewController.swift in Sources */,
+				5BDD3CE41E30C51E00669D34 /* ChampionInfoViewController.swift in Sources */,
+				5B3DAEAE1E2FC14E00ED639C /* ChampionViewConroller.swift in Sources */,
+				5B3DAEB31E2FC51200ED639C /* Champion.swift in Sources */,
 				5B4594861DF305C3008FB26F /* AppDelegate.swift in Sources */,
+				5BBEAFBC1E11B715003AA6D0 /* MenuViewController.swift in Sources */,
+				5B3DAEB61E2FD40C00ED639C /* PreviewChampionCell.swift in Sources */,
+				5B6AC32E1E100A8800B1C3F0 /* Question.swift in Sources */,
+				5B58C0C01DF462A7000AF216 /* QuestionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +365,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B45949B1DF305C3008FB26F /* iLOLTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +372,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B4594A61DF305C3008FB26F /* iLOLUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,20 +391,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5B4594891DF305C3008FB26F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5B45948A1DF305C3008FB26F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5B45948E1DF305C3008FB26F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				5B45948F1DF305C3008FB26F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5B6AC32A1E10098400B1C3F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B6AC32B1E10098400B1C3F0 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -333,6 +428,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -383,6 +479,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -410,7 +507,9 @@
 		};
 		5B4594AB1DF305C3008FB26F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 282D3E5BCBCF929B2E1624F5 /* Pods-iLOL.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iLOL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -422,7 +521,9 @@
 		};
 		5B4594AC1DF305C3008FB26F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4BF8FC4C6C11272623A0CE1 /* Pods-iLOL.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iLOL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -505,6 +606,7 @@
 				5B4594AC1DF305C3008FB26F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B4594AD1DF305C3008FB26F /* Build configuration list for PBXNativeTarget "iLOLTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +615,7 @@
 				5B4594AF1DF305C3008FB26F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B4594B01DF305C3008FB26F /* Build configuration list for PBXNativeTarget "iLOLUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +624,7 @@
 				5B4594B21DF305C3008FB26F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
