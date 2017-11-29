@@ -19,7 +19,7 @@ class QuestionViewController: UIViewController {
     @IBOutlet weak var popUpStopBtn: UIButton!
     @IBOutlet weak var popUpCancelBtn: UIButton!
     
-    let apiKey = "53706bfc-25ca-47b6-ac89-bf1501c44d65";
+    let apiKey = //fill in API-key
     let leageOfLegendsURL = "https://global.api.pvp.net/api/lol/static-data/euw/v1.2/champion?champData=image&api_key=53706bfc-25ca-47b6-ac89-bf1501c44d65"
     
     var questions = [Question]()
